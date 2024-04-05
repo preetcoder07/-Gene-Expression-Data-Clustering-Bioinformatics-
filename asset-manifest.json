@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PDF_MASTER/static/css/main.436d5eea.css",
+    "main.js": "/PDF_MASTER/static/js/main.e8f06111.js",
+    "static/js/568.2549c276.chunk.js": "/PDF_MASTER/static/js/568.2549c276.chunk.js",
+    "static/js/116.8339f3b2.chunk.js": "/PDF_MASTER/static/js/116.8339f3b2.chunk.js",
+    "static/js/585.284b95b8.chunk.js": "/PDF_MASTER/static/js/585.284b95b8.chunk.js",
+    "static/js/453.68693753.chunk.js": "/PDF_MASTER/static/js/453.68693753.chunk.js",
+    "index.html": "/PDF_MASTER/index.html",
+    "main.436d5eea.css.map": "/PDF_MASTER/static/css/main.436d5eea.css.map",
+    "main.e8f06111.js.map": "/PDF_MASTER/static/js/main.e8f06111.js.map",
+    "568.2549c276.chunk.js.map": "/PDF_MASTER/static/js/568.2549c276.chunk.js.map",
+    "116.8339f3b2.chunk.js.map": "/PDF_MASTER/static/js/116.8339f3b2.chunk.js.map",
+    "585.284b95b8.chunk.js.map": "/PDF_MASTER/static/js/585.284b95b8.chunk.js.map",
+    "453.68693753.chunk.js.map": "/PDF_MASTER/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.436d5eea.css",
+    "static/js/main.e8f06111.js"
+  ]
+}

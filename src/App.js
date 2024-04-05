@@ -1,11 +1,13 @@
 import './App.css';
 import jsPDF from 'jspdf';    // npm i jspdf
 import { useState } from 'react';
+import Alert from './components/Alert';
+// import Alert from './components/Alert';
 const App = () => {
 
   const [image, setImage] = useState(null)
   const [imageselected, setImageselected] = useState(false)
-
+  const [showalert, setShowAlert] = useState(false)
   const imgeselect = (e) => {
     setImage(URL.createObjectURL(e.target.files[0]));
     setImageselected(true);
@@ -37,12 +39,19 @@ const App = () => {
       document.body.appendChild(link);
       link.click();
 
+      setShowAlert(true);
+      setTimeout(() => {
+        setShowAlert(false)
+      }, 1500);
+
+
     }
   }
 
   return (
 
     <>
+      {showalert && <Alert />}
       <div class="dropdown ">
         <button class="btn drop btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Socials
@@ -71,6 +80,7 @@ const App = () => {
             </div>
             <div className='container imgsel'>
               <button type="button" class="btn btn-outline-success btn2" onClick={conrtToPdf}  >𝔻𝕠𝕨𝕟𝕝𝕠𝕒𝕕</button>
+
             </div>
           </>
         )}
